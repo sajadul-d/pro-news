@@ -33,6 +33,7 @@ function catagoryDetails(id) {
     .then((data) => loadNews(data.data));
 }
 
+//load function
 function loadNews(data) {
   //console.log(data.length);
   const newsNumber = document.getElementById('news-number');
