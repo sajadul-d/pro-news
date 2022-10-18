@@ -79,6 +79,8 @@ function loadNews(data) {
     loadAllNews.appendChild(newsDiv);
   }
 }
+
+//modal functio
 function detailsNews(data) {}
 detailsNews();
 newsCatagoryLoad();
